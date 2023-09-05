@@ -1,0 +1,146 @@
+body, input{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fefaff;
+}
+
+h1{
+    color: #0100ff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.screen{
+    width: 100%;
+    position: relative;
+    top: 2rem;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.button{
+    padding: 1rem;
+    border: 1px solid #5501ff;
+    border-radius: 5%;
+    margin: 1rem;
+}
+
+.button:hover{
+    background-color: #f003f1;
+    border: 1px solid #9400ff;
+}
+
+.border-left{
+    border-left: 1px solid black;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+.bolder-border-left{
+    border-left: 2px solid black;
+}
+
+.bolder-border-bottom{
+    border-bottom: 2px solid black;
+}
+
+.border-top{
+    border-top: 2px solid black;
+}
+
+.border-right{
+    border-right: 2px solid black;
+}
+
+
+/* header */ 
+header{
+    display: flex;
+}
+
+header img{
+    height: 15rem;
+    position: relative;
+    
+}
+
+/* First page */
+
+#first{
+    /*display: none;*/
+}
+
+/* Second Page*/
+
+#second{
+    display: none;
+    flex-direction: column;
+}
+
+/* Third Page */
+
+#third{
+    display: none;
+}
+
+#config{
+    display: flex;
+    justify-content: center;
+}
+
+/* Board */
+
+
+.line{
+    display: flex;
+    width: 100%;
+}
+
+.number{
+    width: 2rem;
+    margin: 0;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/*input[type=number] {
+  -moz-appearance: textfield;
+}*/
+
+input{
+    border: 0;
+    color: gray;
+}
+
+/* footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
